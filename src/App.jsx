@@ -15,22 +15,22 @@ const SKILLS = [
   { name: 'SQL', className: 'bg-violet-50 text-violet-800' },
   { name: 'Machine Learning', className: 'bg-orange-50 text-orange-800' },
   { name: 'Excel', className: 'bg-lime-50 text-lime-800' },
-  { name: 'Tableau', className: 'bg-fuchsia-50 text-fuchsia-800' },
+  { name: 'Power BI', className: 'bg-fuchsia-50 text-fuchsia-800' },
 ]
 
 const MILESTONES = [
   {
     year: '2026',
-    title: 'Research assistant era',
+    title: 'Final Year Student Doing FYP',
     detail: 'Helping tidy survey data, write reproducible notes, and keep the lab coffee warm.',
   },
   {
     year: '2025',
-    title: 'Statistics, year two',
+    title: 'Statistics, Year 3',
     detail: 'Probability, linear models, and late-night plotting sessions in the library corner.',
   },
   {
-    year: '2024',
+    year: '2023',
     title: 'First day on campus',
     detail: 'Packed a film camera, a notebook, and a little too much curiosity.',
   },
