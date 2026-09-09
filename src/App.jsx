@@ -133,11 +133,13 @@ function App() {
   const [isPlaying, setIsPlaying] = useState(true)
 
   return (
-    <div className="relative min-h-screen overflow-x-hidden bg-[#FAF8F5] text-zinc-800 antialiased">
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-[420px] bg-[radial-gradient(ellipse_at_top,_rgba(251,191,36,0.16),_transparent_55%)]" />
-      <div className="pointer-events-none absolute -left-24 top-40 h-64 w-64 rounded-full bg-rose-100/50 blur-3xl" />
-      <div className="pointer-events-none absolute right-0 top-[520px] h-72 w-72 rounded-full bg-amber-100/60 blur-3xl" />
-
+    <div className="relative min-h-screen overflow-x-hidden bg-[#F4EFE6] text-[#2C241E] antialiased selection:bg-[#D9C3A5] selection:text-[#1A1410]">
+  {/* Vintage paper warmth & soft vignette */}
+  <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_center,_transparent_40%,_rgba(68,50,34,0.06)_100%)]" />
+  
+  {/* Warm sepia atmospheric glows */}
+  <div className="pointer-events-none absolute -left-20 top-24 h-80 w-80 rounded-full bg-[#EAD7C0]/60 blur-3xl" />
+  <div className="pointer-events-none absolute right-4 top-[480px] h-96 w-96 rounded-full bg-[#DFCEB5]/50 blur-3xl" />
       <header className="fixed inset-x-0 top-4 z-50 flex justify-center px-4">
         <nav className="flex max-w-[calc(100%-0.5rem)] items-center gap-1 overflow-x-auto rounded-full border border-zinc-200/60 bg-white/70 px-3 py-2 shadow-sm backdrop-blur-md sm:gap-2 sm:px-6 sm:py-3">
           {NAV_LINKS.map((link) => (
@@ -168,7 +170,7 @@ function App() {
               </span>
             </div>
 
-            <p className="mt-7 text-sm text-zinc-500">hi, i’m jordan · stats major, little notes collector</p>
+            <p className="mt-7 text-sm text-zinc-500">hi, i’m Pei Ling · stats major, little notes collector</p>
             <h1 className="mt-3 font-serif text-4xl leading-tight text-zinc-800 sm:text-5xl">
               a cozy corner of campus life, data, and film photos
             </h1>
